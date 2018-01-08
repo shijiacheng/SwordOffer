@@ -28,9 +28,17 @@ public class Test {
         System.out.println(result.size());*/
 
         /* 和为S的两个数字 */
-        FindNumbersWithSumSolution findNumbersWithSumSolution = new FindNumbersWithSumSolution();
+        /*FindNumbersWithSumSolution findNumbersWithSumSolution = new FindNumbersWithSumSolution();
         int[] array = {1,2,3,4,5};
         ArrayList<Integer> result = findNumbersWithSumSolution.FindNumbersWithSum(array,5);
-        System.out.println(result.size());
+        System.out.println(result.size());*/
+
+        /* 翻转单词顺序列 */
+        /*ReverseSentenceSolution reverseSentenceSolution = new ReverseSentenceSolution();
+        System.out.println(reverseSentenceSolution.ReverseSentence("I am a student."));*/
+
+        /* 左旋转字符串 */
+        LeftRotateStringSolution leftRotateStringSolution = new LeftRotateStringSolution();
+        System.out.println(leftRotateStringSolution.LeftRotateString("abcXYZdef",3));
     }
 }
