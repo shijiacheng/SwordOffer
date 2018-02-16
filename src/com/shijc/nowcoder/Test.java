@@ -46,9 +46,12 @@ public class Test {
         PrintListValue(permutationSolution.Permutation("abc"));*/
 
         /* 数组中出现次数超过一半的数字 */
-        MoreThanHalfNumSolution moreThanHalfNumSolution = new MoreThanHalfNumSolution();
+        /*MoreThanHalfNumSolution moreThanHalfNumSolution = new MoreThanHalfNumSolution();
         int[] array = {1,2,3,3,3,3,3,4,5};
-        System.out.println(moreThanHalfNumSolution.MoreThanHalfNum_Solution(array));
+        System.out.println(moreThanHalfNumSolution.MoreThanHalfNum_Solution(array));*/
+
+        AddWithoutOperatorSolution addWithoutOperatorSolution = new AddWithoutOperatorSolution();
+        System.out.println(addWithoutOperatorSolution.Add(4,5));
 
 
     }
