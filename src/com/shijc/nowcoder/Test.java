@@ -50,8 +50,13 @@ public class Test {
         int[] array = {1,2,3,3,3,3,3,4,5};
         System.out.println(moreThanHalfNumSolution.MoreThanHalfNum_Solution(array));*/
 
-        AddWithoutOperatorSolution addWithoutOperatorSolution = new AddWithoutOperatorSolution();
-        System.out.println(addWithoutOperatorSolution.Add(4,5));
+        /* 不用加减乘除做加法 */
+        /*AddWithoutOperatorSolution addWithoutOperatorSolution = new AddWithoutOperatorSolution();
+        System.out.println(addWithoutOperatorSolution.Add(4,5));*/
+
+        /* 把字符串转换成整数 */
+        StringToIntSolution stringToIntSolution = new StringToIntSolution();
+        System.out.println(stringToIntSolution.StrToInt("-9382373"));
 
 
     }
