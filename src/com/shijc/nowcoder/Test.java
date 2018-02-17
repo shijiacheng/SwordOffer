@@ -55,8 +55,20 @@ public class Test {
         System.out.println(addWithoutOperatorSolution.Add(4,5));*/
 
         /* 把字符串转换成整数 */
-        StringToIntSolution stringToIntSolution = new StringToIntSolution();
-        System.out.println(stringToIntSolution.StrToInt("-9382373"));
+        /*StringToIntSolution stringToIntSolution = new StringToIntSolution();
+        System.out.println(stringToIntSolution.StrToInt("-9382373"));*/
+
+        /* 数组中重复的数字 */
+        DuplicateInArraySolution duplicateInArraySolution = new DuplicateInArraySolution();
+        int[] numbers = {2,3,1,0,2,5,3};
+        int length = 7;
+        int[] array = new int[1];
+        boolean result = duplicateInArraySolution.duplicate(numbers,length,array);
+        if (result){
+            System.out.println(array[0]);
+        }else {
+            System.out.println("false");
+        }
 
 
     }
