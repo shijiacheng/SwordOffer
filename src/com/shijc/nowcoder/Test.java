@@ -71,9 +71,14 @@ public class Test {
         }*/
 
         /* 二进制中1的个数 */
-        NumberOf1InBinarySolution numberOf1InBinarySolution = new NumberOf1InBinarySolution();
-        System.out.println(numberOf1InBinarySolution.NumberOf1(9));
+        /*NumberOf1InBinarySolution numberOf1InBinarySolution = new NumberOf1InBinarySolution();
+        System.out.println(numberOf1InBinarySolution.NumberOf1(9));*/
 
+        /* 调整数组顺序使奇数位于偶数前面 */
+        ReOrderArraySolution reOrderArraySolution = new ReOrderArraySolution();
+        int[] array = {1,2,3,4,5};
+        reOrderArraySolution.reOrderArray(array);
+        PrintArrayValue(array);
 
     }
 
@@ -87,6 +92,12 @@ public class Test {
     public static void PrintListValue(ArrayList<String> result){
         for (int i = 0; i < result.size(); i++) {
             System.out.print(result.get(i)+" ");
+        }
+    }
+
+    public static void PrintArrayValue(int[] result){
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i]);
         }
     }
 }
