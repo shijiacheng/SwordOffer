@@ -59,7 +59,7 @@ public class Test {
         System.out.println(stringToIntSolution.StrToInt("-9382373"));*/
 
         /* 数组中重复的数字 */
-        DuplicateInArraySolution duplicateInArraySolution = new DuplicateInArraySolution();
+        /*DuplicateInArraySolution duplicateInArraySolution = new DuplicateInArraySolution();
         int[] numbers = {2,3,1,0,2,5,3};
         int length = 7;
         int[] array = new int[1];
@@ -68,7 +68,11 @@ public class Test {
             System.out.println(array[0]);
         }else {
             System.out.println("false");
-        }
+        }*/
+
+        /* 二进制中1的个数 */
+        NumberOf1InBinarySolution numberOf1InBinarySolution = new NumberOf1InBinarySolution();
+        System.out.println(numberOf1InBinarySolution.NumberOf1(9));
 
 
     }
