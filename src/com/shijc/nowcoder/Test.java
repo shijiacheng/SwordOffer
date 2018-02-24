@@ -75,10 +75,18 @@ public class Test {
         System.out.println(numberOf1InBinarySolution.NumberOf1(9));*/
 
         /* 调整数组顺序使奇数位于偶数前面 */
-        ReOrderArraySolution reOrderArraySolution = new ReOrderArraySolution();
+        /*ReOrderArraySolution reOrderArraySolution = new ReOrderArraySolution();
         int[] array = {1,2,3,4,5};
         reOrderArraySolution.reOrderArray(array);
-        PrintArrayValue(array);
+        PrintArrayValue(array);*/
+
+        /* 顺时针打印矩阵 */
+        PrintMatrixSolution printMatrixSolution = new PrintMatrixSolution();
+        int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        ArrayList<Integer> result = printMatrixSolution.printMatrix(matrix);
+        for (int i = 0; i < result.size(); i++) {
+            System.out.print(result.get(i)+" ");
+        }
 
     }
 
