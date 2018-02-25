@@ -27,10 +27,10 @@
 | 面试题19：二叉树的镜像          | 面试思路     | [MirrorOfBinaryTree.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/MirrorOfBinaryTree.java) | 通过   |
 | 面试题20：顺时针打印矩阵         | 画图让抽象形象化 | [PrintMatrixSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/PrintMatrixSolution.java) | 通过   |
 | 面试题21：                |          |                                          |      |
-| 面试题22：                |          |                                          |      |
-|                       |          |                                          |      |
-|                       |          |                                          |      |
-|                       |          |                                          |      |
+| 面试题22：栈的压入、弹出序列       | 举例让抽象具体化 | [StackPushPopOrderSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
+| 面试题23：从上往下打印二叉树       | 举例让抽象具体化 | [PrintTreeFromTopToBottomSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
+| 面试题24：二叉搜索树的后序遍历序列    | 举例让抽象具体化 | [SquenceOfBSTSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
+| 面试题25：二叉树中和为某一值的路径    | 举例让抽象具体化 | [PathInTreeSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
