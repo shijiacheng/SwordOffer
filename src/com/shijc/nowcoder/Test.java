@@ -88,6 +88,25 @@ public class Test {
             System.out.print(result.get(i)+" ");
         }
 
+        /* 栈的压入、弹出序列 */
+        /*StackPushPopOrderSolution stackPushPopOrderSolution = new StackPushPopOrderSolution();
+        int[] push = {1,2,3,4,5};
+        int[] pop = {4,5,3,2,1};
+        if (stackPushPopOrderSolution.IsPopOrder(push,pop)){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }*/
+
+        SquenceOfBSTSolution squenceOfBSTSolution = new SquenceOfBSTSolution();
+        int[] push = {5,7,6,9,11,10,8};
+//        int[] push = {7,4,6,5};
+        if (squenceOfBSTSolution.VerifySquenceOfBST(push)){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
+
     }
 
 
