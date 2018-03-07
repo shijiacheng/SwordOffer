@@ -81,12 +81,12 @@ public class Test {
         PrintArrayValue(array);*/
 
         /* 顺时针打印矩阵 */
-        PrintMatrixSolution printMatrixSolution = new PrintMatrixSolution();
+        /*PrintMatrixSolution printMatrixSolution = new PrintMatrixSolution();
         int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
         ArrayList<Integer> result = printMatrixSolution.printMatrix(matrix);
         for (int i = 0; i < result.size(); i++) {
             System.out.print(result.get(i)+" ");
-        }
+        }*/
 
         /* 栈的压入、弹出序列 */
         /*StackPushPopOrderSolution stackPushPopOrderSolution = new StackPushPopOrderSolution();
@@ -98,14 +98,27 @@ public class Test {
             System.out.println("false");
         }*/
 
-        SquenceOfBSTSolution squenceOfBSTSolution = new SquenceOfBSTSolution();
+        /* 二叉搜索树的后序遍历序列 */
+        /*SquenceOfBSTSolution squenceOfBSTSolution = new SquenceOfBSTSolution();
         int[] push = {5,7,6,9,11,10,8};
-//        int[] push = {7,4,6,5};
         if (squenceOfBSTSolution.VerifySquenceOfBST(push)){
             System.out.println("true");
         }else {
             System.out.println("false");
+        }*/
+
+        /* 扑克牌的顺子 */
+        IsContinuousSolution isContinuousSolution = new IsContinuousSolution();
+//        int[] array = {1,2,3,4,5};
+        int[] array = {1,2,2,4,5};
+//        int[] array = {0,2,0,4,5};
+        if (isContinuousSolution.isContinuous(array)){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
         }
+
+
 
     }
 
