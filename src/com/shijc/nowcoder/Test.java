@@ -108,7 +108,7 @@ public class Test {
         }*/
 
         /* 扑克牌的顺子 */
-        IsContinuousSolution isContinuousSolution = new IsContinuousSolution();
+        /*IsContinuousSolution isContinuousSolution = new IsContinuousSolution();
 //        int[] array = {1,2,3,4,5};
         int[] array = {1,2,2,4,5};
 //        int[] array = {0,2,0,4,5};
@@ -116,8 +116,12 @@ public class Test {
             System.out.println("true");
         }else {
             System.out.println("false");
-        }
+        }*/
 
+        /* 构建乘积数组 */
+        MultiplySolution multiplySolution = new MultiplySolution();
+        int[] A = {1,2,3,4,5};
+        PrintArrayValue(multiplySolution.multiply(A));
 
 
     }
@@ -137,7 +141,7 @@ public class Test {
 
     public static void PrintArrayValue(int[] result){
         for (int i = 0; i < result.length; i++) {
-            System.out.print(result[i]);
+            System.out.print(result[i]+" ");
         }
     }
 }
