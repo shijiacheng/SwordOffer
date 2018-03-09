@@ -119,11 +119,19 @@ public class Test {
         }*/
 
         /* 构建乘积数组 */
-        MultiplySolution multiplySolution = new MultiplySolution();
+        /*MultiplySolution multiplySolution = new MultiplySolution();
         int[] A = {1,2,3,4,5};
-        PrintArrayValue(multiplySolution.multiply(A));
+        PrintArrayValue(multiplySolution.multiply(A));*/
 
-
+        /* 正则表达式匹配 */
+        RegularExpressionsMatchingSolution regularExpressionsMatchingSolution = new RegularExpressionsMatchingSolution();
+        char[] str = {'a','a','a'};
+        char[] pattern = {'a','.','a'};
+        if (regularExpressionsMatchingSolution.match(str,pattern)){
+            System.out.println("true");
+        }else {
+            System.out.println("false");
+        }
     }
 
 
