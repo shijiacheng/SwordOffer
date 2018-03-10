@@ -46,8 +46,8 @@
 | 面试题54：表示数值的字符串        |          | [NumericStringsSolution.java]            |      |
 | 面试题55：字符流中第一个不重复的字符   |          | [FirstCharacterInStreamSolution.java]    |      |
 | 面试题56：链表中环的入口结点       |          | [EntryNodeInListLoopSolution.java]       |      |
-|                       |          |                                          |      |
-|                       |          |                                          |      |
+| 面试题57：删除链表中重复的结点      |          | [DeleteDuplicatedListNodeSolution.java]  |      |
+| 面试题58：二叉树的下一个结点       |          | [NextNodeInBinaryTreesSolution.java]     |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
