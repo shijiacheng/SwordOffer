@@ -31,6 +31,7 @@
 | 面试题23：从上往下打印二叉树       | 举例让抽象具体化 | [PrintTreeFromTopToBottomSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
 | 面试题24：二叉搜索树的后序遍历序列    | 举例让抽象具体化 | [SquenceOfBSTSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
 | 面试题25：二叉树中和为某一值的路径    | 举例让抽象具体化 | [PathInTreeSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/StackPushPopOrderSolution.java) | 通过   |
+| 面试题26：复杂链表的复制         |          | [CopyComplexListSolution.java]           |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
@@ -42,9 +43,8 @@
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
-|                       |          |                                          |      |
-|                       |          |                                          |      |
-|                       |          |                                          |      |
+| 面试题54：表示数值的字符串        |          | [NumericStringsSolution.java]            |      |
+| 面试题55：字符流中第一个不重复的字符   |          | [FirstCharacterInStreamSolution.java]    |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
