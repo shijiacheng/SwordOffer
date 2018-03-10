@@ -124,14 +124,23 @@ public class Test {
         PrintArrayValue(multiplySolution.multiply(A));*/
 
         /* 正则表达式匹配 */
-        RegularExpressionsMatchingSolution regularExpressionsMatchingSolution = new RegularExpressionsMatchingSolution();
+        /*RegularExpressionsMatchingSolution regularExpressionsMatchingSolution = new RegularExpressionsMatchingSolution();
         char[] str = {'a','a','a'};
         char[] pattern = {'a','.','a'};
         if (regularExpressionsMatchingSolution.match(str,pattern)){
             System.out.println("true");
         }else {
             System.out.println("false");
+        }*/
+
+        /* 字符流中第一个不重复的字符 */
+        FirstCharacterInStreamSolution firstCharacterInStreamSolution = new FirstCharacterInStreamSolution();
+        char[] chars = {'g','o','o','g','l','e'};
+        for (int i = 0; i < chars.length; i++) {
+            firstCharacterInStreamSolution.Insert(chars[i]);
         }
+        System.out.println(firstCharacterInStreamSolution.FirstAppearingOnce());
+
     }
 
 
