@@ -45,7 +45,7 @@
 |                       |          |                                          |      |
 | 面试题54：表示数值的字符串        |          | [NumericStringsSolution.java]            |      |
 | 面试题55：字符流中第一个不重复的字符   |          | [FirstCharacterInStreamSolution.java]    |      |
-|                       |          |                                          |      |
+| 面试题56：链表中环的入口结点       |          | [EntryNodeInListLoopSolution.java]       |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
