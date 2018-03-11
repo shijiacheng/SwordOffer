@@ -48,7 +48,7 @@
 | 面试题56：链表中环的入口结点       |          | [EntryNodeInListLoopSolution.java]       |      |
 | 面试题57：删除链表中重复的结点      |          | [DeleteDuplicatedListNodeSolution.java]  |      |
 | 面试题58：二叉树的下一个结点       |          | [NextNodeInBinaryTreesSolution.java]     |      |
-|                       |          |                                          |      |
+| 面试题59：对称的二叉树          |          | [SymmetricalBinaryTreeSolution.java]     |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
 |                       |          |                                          |      |
