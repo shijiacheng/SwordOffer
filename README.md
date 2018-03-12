@@ -8,8 +8,8 @@
 | 面试题3：二维数组中的查找         | 数组       |                                          |      |
 | 面试题4：替换空格             |          |                                          |      |
 | 面试题5：从尾到头打印链表         |          | [PrintListFromTailToHeadSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/PrintListFromTailToHeadSolution.java) | 通过   |
-| 面试题6：                 |          |                                          |      |
-| 面试题7：                 |          |                                          |      |
+| 面试题6：重建二叉树            |          | [ConstructBinaryTreeSolution.java]       |      |
+| 面试题7：用两个栈实现队列         |          | [QueueWithTwoStacksSolution.java]        |      |
 | 面试题8：                 |          |                                          |      |
 | 面试题9：斐波那契数列           | 递归和循环    | [FibonacciSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/FibonacciSolution.java) | 通过   |
 | 面试题9扩展：跳台阶            | 递归和循环    | [JumpFloorSolution.java](https://github.com/shijiacheng/SwordOffer/blob/master/src/com/shijc/nowcoder/JumpFloorSolution.java) | 通过   |
