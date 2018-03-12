@@ -10,7 +10,7 @@ import java.util.Stack;
  * @author shijiacheng
  * @date 2018/3/12
  */
-public class QueueWithTwoStacks {
+public class QueueWithTwoStacksSolution {
     Stack<Integer> stack1 = new Stack<Integer>();
     Stack<Integer> stack2 = new Stack<Integer>();
 
