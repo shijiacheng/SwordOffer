@@ -134,12 +134,22 @@ public class Test {
         }*/
 
         /* 字符流中第一个不重复的字符 */
-        FirstCharacterInStreamSolution firstCharacterInStreamSolution = new FirstCharacterInStreamSolution();
+        /*FirstCharacterInStreamSolution firstCharacterInStreamSolution = new FirstCharacterInStreamSolution();
         char[] chars = {'g','o','o','g','l','e'};
         for (int i = 0; i < chars.length; i++) {
             firstCharacterInStreamSolution.Insert(chars[i]);
         }
-        System.out.println(firstCharacterInStreamSolution.FirstAppearingOnce());
+        System.out.println(firstCharacterInStreamSolution.FirstAppearingOnce());*/
+
+        /* 旋转数组的最小数字 */
+        /*MinNumberInRotateArraySolution minNumberInRotateArraySolution = new MinNumberInRotateArraySolution();
+        int[] array = {8, 9, 10, 1, 2, 3, 4, 5, 6 , 7};
+        System.out.println(minNumberInRotateArraySolution.minNumberInRotateArray(array));*/
+
+        /* 把数组排成最小的数 */
+        SortArrayForMinNumberSolution sortArrayForMinNumberSolution = new SortArrayForMinNumberSolution();
+        int[] array = {12,21};
+        System.out.println(sortArrayForMinNumberSolution.PrintMinNumber(array));
 
     }
 
