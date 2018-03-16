@@ -8,7 +8,7 @@ import java.util.Stack;
  * 定义栈的数据结构，请在该类型中实现一个能够得到栈最小元素的min函数。
  * Created by shijiacheng on 2018/3/16.
  */
-public class MinInStack {
+public class MinInStackSolution {
     Stack<Integer> data_stack = new Stack<Integer>();
     Stack<Integer> min_stack = new Stack<Integer>();
 
