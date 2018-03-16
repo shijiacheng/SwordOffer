@@ -9,7 +9,7 @@ package com.shijc.nowcoder;
  * 加普遍化,可以很快的求出任意非负整数区间中1出现的次数。
  *
  * @author shijiacheng
- * @date 2018/3/16.
+ * @date 2018/3/16
  */
 public class NumberOf1Solution {
     public int NumberOf1Between1AndN_Solution(int n) {
