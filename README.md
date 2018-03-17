@@ -53,8 +53,8 @@
 |                                          |                  |                                                              |      |
 |                                          |                  |                                                              |      |
 |                                          |                  |                                                              |      |
-|                                          |                  |                                                              |      |
-|                                          |                  |                                                              |      |
+| 面试题65：滑动窗口的最大值               |                  | [MaxInSlidingWindowSolution.java]                            |      |
+| 面试题66：矩阵中的路径                   |                  | [StringPathInMatrixSolution.java]                            |      |
 |                                          |                  |                                                              |      |
 |                                          |                  |                                                              |      |
 |                                          |                  |                                                              |      |
