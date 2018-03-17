@@ -4,7 +4,9 @@ package com.shijc.nowcoder;
  * 平衡二叉树
  * 题目描述
  * 输入一棵二叉树，判断该二叉树是否是平衡二叉树。
- * Created by shijiacheng on 2018/3/14.
+ *
+ * @author shijiacheng
+ * @date 2018/3/14
  */
 public class BalancedBinaryTreeSolution {
     public boolean IsBalanced_Solution(TreeNode root) {
